@@ -96,8 +96,6 @@ char *curl_version(void)
   size_t len;
   size_t left = sizeof(version);
 
-printf("!!!!! Gleb initialized=%d ver=%s\n", initialized, LIBCURL_VERSION);
-
   if(initialized)
     return version;
 
